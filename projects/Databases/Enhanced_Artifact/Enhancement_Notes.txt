@@ -1,0 +1,15 @@
+Enhancement Three focuses on database quality rather than cosmetic changes.
+The main improvements are safer CRUD operations, stronger validation, centralized query construction,
+expanded filtering, index creation, credential handling, modular database access, and testable query logic.
+
+Security improvements:
+- No hard-coded password in the enhanced source.
+- Empty update/delete filters are rejected.
+- Update fields are allow-listed.
+- User-entered breed text is escaped before being used as a regular expression.
+
+Performance improvements:
+- animal_id index for direct record lookup.
+- compound rescue_filter_idx for the fields used together by rescue profiles.
+- outcome_type_idx for outcome-based analysis.
+- optional result limits and projections reduce unnecessary data transfer.

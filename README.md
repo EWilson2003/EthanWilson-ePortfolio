@@ -1,3 +1,9 @@
-# Original Baseline
+# CS-499 Computer Science ePortfolio
 
-This folder is a clearly labeled reconstruction of the CS 340 Animal Shelter Dashboard database layer for before-and-after comparison. The exact historical source files were not present in the prior CS 499 submission package. It preserves the known Python/MongoDB CRUD and rescue-filter behavior without claiming to be the untouched historical file.
+Open `index.html` via GitHub Pages. Project artifacts are separated into original and enhanced versions in `projects/`.
+
+## Important
+- Upload the **contents** of this folder to the root of your GitHub repository, preserving the `projects/` and `documents/` folders. Do not flatten the folders.
+- The database `Original_Baseline` is reconstructed, as documented in its README.
+- The code review video is not included and must be added if required.
+- Source files and narratives are provided as received; successful compilation and rubric compliance have not been independently established.

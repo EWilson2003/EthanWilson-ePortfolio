@@ -1,0 +1,5 @@
+Average search time (5000 repetitions)
+Vector linear search: 31.0899 microseconds | O(n)
+Hash table lookup:    0.0093 microseconds | average O(1)
+BST lookup:           57.2604 microseconds | average O(log n), worst O(n)
+Sorting: std::sort O(n log n) average/worst practical bound
